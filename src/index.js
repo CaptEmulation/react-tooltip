@@ -302,6 +302,7 @@ class ReactTooltip extends Component {
               isEmptyTip
             })
           }
+          this.updatePosition();
         }, getContent[1])
       }
     })
